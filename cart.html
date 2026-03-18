@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Merch | Teddy Swims</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+    <div class="cart-header">
+        <a href="merch.html" class="back-link">&larr; Back to store</a>
+        <h1 class="page-title"> Shop's Cart</h1>
+    </div>
+</header>
+
+    <main class="cart-container">
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>In total</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- JavaScript će ovdje umetnuti stavke -->
+            </tbody>
+            <tfoot>
+  <tr>
+    <td colspan="3"><strong>In total</strong></td>
+    <td>
+      <strong id="total-price">0.00 €</strong>
+      <span id="clear-cart" style="cursor:pointer; font-size: 20px; margin-left: 10px;">🗑️</span>
+    </td>
+  </tr>
+
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>
